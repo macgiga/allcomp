@@ -1,0 +1,3 @@
+# allcomp
+TEST
+TEST
