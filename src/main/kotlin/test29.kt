@@ -20,4 +20,6 @@ fun main(args: Array<String>) {
 
     println("joinedToString = $joinedToString")
     println("product = $product")
+    println("product = $product")
+
 }
