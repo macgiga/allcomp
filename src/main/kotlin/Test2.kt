@@ -17,6 +17,9 @@ fun main(args: Array<String>) {
     squares.filter { it < 100 }.forEach(fun(v:Int){ print(v.toString() + ",")})
     squares.filter { it < 100 }.forEach{ print(it.toString() +",")}
     squares.filter { it < 100 }.forEach{ el -> println(el)}
+    println("....")
+    squares.filter { it < 100 }.forEach(::println)
+    println("....")
 
     squares2.filter { it < 10 }.map { element -> element * 2 }.forEach{ println("10보다작은것중에곱하기2 $it")}
 
