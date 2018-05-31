@@ -20,6 +20,7 @@ fun main(args: Array<String>) {
     println("....")
     squares.filter { it < 100 }.forEach(::println)
     println("....")
+    squares.filter { it < 100 }.forEach(::testref)
 
     squares2.filter { it < 10 }.map { element -> element * 2 }.forEach{ println("10보다작은것중에곱하기2 $it")}
 
@@ -36,6 +37,8 @@ fun main(args: Array<String>) {
     }
 
 }
+
+fun testref(i:Int )= println(i)
 
 class Turtle {
     fun penDown() {}
